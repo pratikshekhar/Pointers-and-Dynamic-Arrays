@@ -1,0 +1,34 @@
+Name: Pratik Shekhar
+Lab : 1 Pointers and Dynamic Memory
+Course : CS283 Systems Programming
+email: ps599@drexel.edu
+
+This readme file is for all the programs for lab 1. There are five programs in total and named as question1.c, question2.c, question3.c, question4.c and question5.c respectively. 
+
+All the programs are written in C language, so in order to test the program, knowledge of both C and pointers are necessary.
+
+I have created a Makefile to run the programs. In order to run any program, the tester must type the following command in the terminal for each questions:
+ 	
+	  make prob<type question_Number here> 
+
+For example: In order to run the first program, the tester must write 
+	"make ques1" and press enter. 
+	    Similarly for second program, the tester must write 
+	"make ques2" and press enter.
+
+In order to run program in a different manner, the tester must first compile each program using the following command:
+
+	For example: to run question 1,
+	the tester must first compile question1.c by typing the following:
+
+	gcc -o question1 question1.c
+
+	Once question1.c is compiled, the tester must write the following to execute it:
+	
+	./question1
+
+
+NOTE: The program will not run if it doesn't compile. However in this case all the programs are working and hence will compile without any errors. 
+
+
+I'm fairly new to C and therefore had to teach my self pointer over the weekend to finish this lab. I really enjoyed it a lot. I would also like to mention that I took help from few of my class mates, TA's and StackOver flow in order to     understand certain concepts in C and make my program working.  
